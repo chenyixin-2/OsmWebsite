@@ -18,3 +18,7 @@ public/attachments
 public/export
 storage
 tmp
+*.osm
+*.osm.pbf
+*.osc
+
