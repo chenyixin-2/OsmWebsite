@@ -1,0 +1,1296 @@
+-- Logs begin at Tue 2020-06-02 05:02:37 +08, end at Tue 2020-08-18 10:24:09 +08. --
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(==) vmware(0): Rendercheck mode is disabled.[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(--) vmware(0): Direct rendering (3D) is enabled.[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(==) vmware(0): Direct presents are disabled.[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(==) vmware(0): Hardware only presents are automatic per scanout.[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(==) vmware(0): Backing store enabled[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(==) vmware(0): Silken mouse enabled[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) vmware(0): RandR 1.2 enabled, ignore the following RandR disabled message.[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(==) vmware(0): DPMS enabled[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(--) RandR disabled[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) SELinux: Disabled on system[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) AIGLX: enabled GLX_MESA_copy_sub_buffer[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) AIGLX: enabled GLX_ARB_create_context[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) AIGLX: enabled GLX_ARB_create_context_profile[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) AIGLX: enabled GLX_EXT_create_context_es{,2}_profile[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) AIGLX: enabled GLX_EXT_framebuffer_sRGB[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) AIGLX: enabled GLX_ARB_fbconfig_float[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) AIGLX: enabled GLX_EXT_fbconfig_packed_float[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) AIGLX: GLX_EXT_texture_from_pixmap backed by buffer objects[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) AIGLX: Loaded and initialized vmwgfx[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) GLX: Initialized DRI2 GL provider for screen 0[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) vmware(0): Setting screen physical size to 508 x 285[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) config/udev: Adding input device Power Button (/dev/input/event0)[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Power Button: Applying InputClass "libinput keyboard catchall"[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) LoadModule: "libinput"[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) Loading /usr/lib/xorg/modules/input/libinput_drv.so[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) Module libinput: vendor="X.Org Foundation"[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m        compiled for 1.19.6, module version = 0.27.1[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m        Module class: X.Org XInput Driver[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m        ABI class: X.Org XInput driver, version 24.1[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) Using input driver 'libinput' for 'Power Button'[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) systemd-logind: got fd for /dev/input/event0 13:64 fd 24 paused 0[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Power Button: always reports core events[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "Device" "/dev/input/event0"[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "_source" "server/udev"[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event0  - Power Button: is tagged by udev as: Keyboard[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event0  - Power Button: device is a keyboard[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event0  - Power Button: device removed[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "xkb_layout" "us"[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event0  - Power Button: is tagged by udev as: Keyboard[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event0  - Power Button: device is a keyboard[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) config/udev: Adding input device VMware VMware Virtual USB Mouse (/dev/input/event4)[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) VMware VMware Virtual USB Mouse: Applying InputClass "libinput pointer catchall"[0m
+Aug 18 09:38:10 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) Using input driver 'libinput' for 'VMware VMware Virtual USB Mouse'[0m
+Aug 18 09:38:10 chentoz emacs[2435]: Loading /home/chentoz/.emacs.d/lisp/ace-window.el (source)...
+Aug 18 09:38:10 chentoz emacs[2435]: Loading /home/chentoz/.emacs.d/lisp/ace-window.el (source)...done
+Aug 18 09:38:10 chentoz emacs[2435]: Desktop file in use; not loaded.
+Aug 18 09:38:10 chentoz emacs[2435]: Starting Emacs daemon.
+Aug 18 09:38:10 chentoz systemd[2423]: Started Emacs text editor.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:10 chentoz systemd[2423]: Reached target Default.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:10 chentoz systemd[2423]: Startup finished in 854ms.
+-- Subject: User manager start-up is now complete
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The user manager instance for user 1000 has been started. All services queued
+-- for starting have been started. Note that other services might still be starting
+-- up or be started at any later time.
+-- 
+-- Startup of the manager took 854010 microseconds.
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) systemd-logind: got fd for /dev/input/event4 13:68 fd 27 paused 0[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) VMware VMware Virtual USB Mouse: always reports core events[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "Device" "/dev/input/event4"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "_source" "server/udev"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event4  - VMware VMware Virtual USB Mouse: is tagged by udev as: Mouse[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event4  - VMware VMware Virtual USB Mouse: device is a pointer[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event4  - VMware VMware Virtual USB Mouse: device removed[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1/2-1:1.0/0003:0E0F:0003.0001/input/input5/event4"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) XINPUT: Adding extended input device "VMware VMware Virtual USB Mouse" (type: MOUSE, id 7)[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "AccelerationScheme" "none"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) VMware VMware Virtual USB Mouse: (accel) selected scheme none/0[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) VMware VMware Virtual USB Mouse: (accel) acceleration factor: 2.000[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) VMware VMware Virtual USB Mouse: (accel) acceleration threshold: 4[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event4  - VMware VMware Virtual USB Mouse: is tagged by udev as: Mouse[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event4  - VMware VMware Virtual USB Mouse: device is a pointer[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) config/udev: Adding input device VMware VMware Virtual USB Mouse (/dev/input/mouse2)[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) No input driver specified, ignoring this device.[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) This device may have been added with another device file.[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event1)[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) systemd-logind: got fd for /dev/input/event1 13:65 fd 28 paused 0[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) AT Translated Set 2 keyboard: always reports core events[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "Device" "/dev/input/event1"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "_source" "server/udev"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event1  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event1  - AT Translated Set 2 keyboard: device is a keyboard[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event1  - AT Translated Set 2 keyboard: device removed[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input1/event1"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 8)[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "xkb_layout" "us"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event1  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event1  - AT Translated Set 2 keyboard: device is a keyboard[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event3)[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) VirtualPS/2 VMware VMMouse: Applying InputClass "libinput pointer catchall"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) Using input driver 'libinput' for 'VirtualPS/2 VMware VMMouse'[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) systemd-logind: got fd for /dev/input/event3 13:67 fd 29 paused 0[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) VirtualPS/2 VMware VMMouse: always reports core events[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "Device" "/dev/input/event3"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "_source" "server/udev"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event3  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event3  - VirtualPS/2 VMware VMMouse: device is a pointer[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event3  - VirtualPS/2 VMware VMMouse: device removed[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event3"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 9)[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "AccelerationScheme" "none"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) VirtualPS/2 VMware VMMouse: (accel) selected scheme none/0[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event3  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event3  - VirtualPS/2 VMware VMMouse: device is a pointer[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse1)[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) No input driver specified, ignoring this device.[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) This device may have been added with another device file.[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event2)[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) VirtualPS/2 VMware VMMouse: Applying InputClass "libinput pointer catchall"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) Using input driver 'libinput' for 'VirtualPS/2 VMware VMMouse'[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) systemd-logind: got fd for /dev/input/event2 13:66 fd 30 paused 0[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) VirtualPS/2 VMware VMMouse: always reports core events[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "Device" "/dev/input/event2"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "_source" "server/udev"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event2  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event2  - VirtualPS/2 VMware VMMouse: device is a pointer[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event2  - VirtualPS/2 VMware VMMouse: device removed[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input4/event2"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 10)[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) Option "AccelerationScheme" "none"[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) VirtualPS/2 VMware VMMouse: (accel) selected scheme none/0[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event2  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) event2  - VirtualPS/2 VMware VMMouse: device is a pointer[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse0)[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) No input driver specified, ignoring this device.[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39m(II) This device may have been added with another device file.[0m
+Aug 18 09:38:11 chentoz systemd[2423]: Started D-Bus User Message Bus.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:11 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] AppArmor D-Bus mediation is enabled
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: /etc/gdm3/Xsession: Beginning session setup...
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: localuser:chentoz being added to access control list
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting DISPLAY=:0[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting XAUTHORITY=/run/user/1000/gdm/Xauthority[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: localuser:chentoz being added to access control list
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting QT_ACCESSIBILITY=1[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting CLUTTER_IM_MODULE=xim[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting LC_MEASUREMENT=en_US.UTF-8[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting LC_PAPER=en_US.UTF-8[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting LC_MONETARY=en_US.UTF-8[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting LANG=en_US.UTF-8[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting DISPLAY=:0[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting EDITOR=vi[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting USERNAME=chentoz[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting S_COLORS=auto[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting LC_NAME=en_US.UTF-8[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting USER=chentoz[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting GO111MODULE=on[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting DESKTOP_SESSION=ubuntu[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting QT4_IM_MODULE=fcitx[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting GOPATH=/home/chentoz/go[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting TEXTDOMAINDIR=/usr/share/locale/[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting PWD=/home/chentoz[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting HOME=/home/chentoz[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting TEXTDOMAIN=im-config[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting ALTERNATE_EDITOR=[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting QT_ACCESSIBILITY=1[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting XDG_SESSION_TYPE=x11[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting XDG_SESSION_DESKTOP=ubuntu[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting LC_ADDRESS=en_US.UTF-8[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting LC_NUMERIC=en_US.UTF-8[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting PAPERSIZE=letter[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting WINDOWPATH=2[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting SHELL=/bin/bash[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting toolset=/home/chentoz/Downloads/linux-toolsets[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting QT_IM_MODULE=fcitx[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting XMODIFIERS=@im=fcitx[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting IM_CONFIG_PHASE=2[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=ubuntu:GNOME[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting SHLVL=1[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting LANGUAGE=en_US:en[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting LC_TELEPHONE=en_US.UTF-8[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting GDMSESSION=ubuntu[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting LOGNAME=chentoz[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting XAUTHORITY=/run/user/1000/gdm/Xauthority[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting PATH=/home/chentoz/Downloads/local-osmosis/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/chentoz/go/bin[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting LC_IDENTIFICATION=en_US.UTF-8[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting GTK_IM_MODULE=fcitx[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting LC_TIME=en_US.UTF-8[0m
+Aug 18 09:38:11 chentoz /usr/lib/gdm3/gdm-x-session[2443]: [0;1;39m[0;1;31m[0;1;39mdbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment[0m
+Aug 18 09:38:11 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.6' (uid=1000 pid=2567 comm="/usr/lib/gnome-session/gnome-session-check-acceler" label="unconfined")
+Aug 18 09:38:11 chentoz systemd[2423]: Starting Accessibility services bus...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Aug 18 09:38:11 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.a11y.Bus'
+Aug 18 09:38:11 chentoz systemd[2423]: Started Accessibility services bus.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:11 chentoz at-spi-bus-launcher[2568]: dbus-daemon[2573]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=2567 comm="/usr/lib/gnome-session/gnome-session-check-acceler" label="unconfined")
+Aug 18 09:38:11 chentoz at-spi-bus-launcher[2568]: dbus-daemon[2573]: Successfully activated service 'org.a11y.atspi.Registry'
+Aug 18 09:38:11 chentoz at-spi-bus-launcher[2568]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Aug 18 09:38:11 chentoz gnome-session[2457]: gnome-session-binary[2457]: WARNING: Could not parse desktop file shutter.desktop or it references a not found TryExec binary
+Aug 18 09:38:11 chentoz gnome-session-binary[2457]: [0;1;39m[0;1;31m[0;1;39mWARNING: Could not parse desktop file shutter.desktop or it references a not found TryExec binary[0m
+Aug 18 09:38:11 chentoz gnome-session[2457]: gnome-session-binary[2457]: WARNING: Could not parse desktop file gsettings-data-convert.desktop or it references a not found TryExec binary
+Aug 18 09:38:11 chentoz gnome-session-binary[2457]: [0;1;39m[0;1;31m[0;1;39mWARNING: Could not parse desktop file gsettings-data-convert.desktop or it references a not found TryExec binary[0m
+Aug 18 09:38:11 chentoz gnome-keyring-ssh.desktop[2585]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Aug 18 09:38:11 chentoz gnome-keyring-secrets.desktop[2587]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Aug 18 09:38:12 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.21' (uid=1000 pid=2592 comm="/usr/bin/gnome-shell " label="unconfined")
+Aug 18 09:38:12 chentoz systemd[2423]: Starting Virtual filesystem service...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Aug 18 09:38:12 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.gtk.vfs.Daemon'
+Aug 18 09:38:12 chentoz systemd[2423]: Started Virtual filesystem service.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:12 chentoz pulseaudio[2616]: [0;1;39m[0;1;31m[0;1;39m[pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.[0m
+Aug 18 09:38:12 chentoz pulseaudio[2616]: [0;1;39m[0;1;31m[0;1;39m[pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.[0m
+Aug 18 09:38:12 chentoz pulseaudio[2616]: [0;1;31m[0;1;39m[0;1;31m[alsa-sink-ES1371/1] alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write.[0m
+Aug 18 09:38:12 chentoz pulseaudio[2616]: [0;1;31m[0;1;39m[0;1;31m[alsa-sink-ES1371/1] alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_ens1371'. Please report this issue to the ALSA developers.[0m
+Aug 18 09:38:12 chentoz pulseaudio[2616]: [0;1;31m[0;1;39m[0;1;31m[alsa-sink-ES1371/1] alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.[0m
+Aug 18 09:38:12 chentoz pulseaudio[2616]: [0;1;31m[0;1;39m[0;1;31m[alsa-source-ES1371/1] alsa-source.c: ALSA woke us up to read new data from the device, but there was actually nothing to read.[0m
+Aug 18 09:38:12 chentoz pulseaudio[2616]: [0;1;31m[0;1;39m[0;1;31m[alsa-source-ES1371/1] alsa-source.c: Most likely this is a bug in the ALSA driver 'snd_ens1371'. Please report this issue to the ALSA developers.[0m
+Aug 18 09:38:12 chentoz pulseaudio[2616]: [0;1;31m[0;1;39m[0;1;31m[alsa-source-ES1371/1] alsa-source.c: We were woken up with POLLIN set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.[0m
+Aug 18 09:38:12 chentoz pulseaudio[2616]: [0;1;31m[0;1;39m[0;1;31m[pulseaudio] backend-ofono.c: Failed to register as a handsfree audio agent with ofono: org.freedesktop.DBus.Error.ServiceUnknown: The name org.ofono was not provided by any .service files[0m
+Aug 18 09:38:12 chentoz bluetoothd[1123]: Endpoint registered: sender=:1.101 path=/MediaEndpoint/A2DPSource
+Aug 18 09:38:12 chentoz bluetoothd[1123]: Endpoint registered: sender=:1.101 path=/MediaEndpoint/A2DPSink
+Aug 18 09:38:12 chentoz kernel: Bluetooth: RFCOMM TTY layer initialized
+Aug 18 09:38:12 chentoz kernel: Bluetooth: RFCOMM socket layer initialized
+Aug 18 09:38:12 chentoz kernel: Bluetooth: RFCOMM ver 1.11
+Aug 18 09:38:12 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating service name='org.freedesktop.portal.IBus' requested by ':1.25' (uid=1000 pid=2642 comm="ibus-daemon --xim --panel disable " label="unconfined")
+Aug 18 09:38:12 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.freedesktop.portal.IBus'
+Aug 18 09:38:12 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.21' (uid=1000 pid=2592 comm="/usr/bin/gnome-shell " label="unconfined")
+Aug 18 09:38:12 chentoz systemd[2423]: Starting sandboxed app permission store...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Aug 18 09:38:12 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Aug 18 09:38:12 chentoz systemd[2423]: Started sandboxed app permission store.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:12 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating service name='org.gnome.Shell.CalendarServer' requested by ':1.21' (uid=1000 pid=2592 comm="/usr/bin/gnome-shell " label="unconfined")
+Aug 18 09:38:12 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.30' (uid=1000 pid=2665 comm="/usr/lib/gnome-shell/gnome-shell-calendar-server " label="unconfined")
+Aug 18 09:38:12 chentoz systemd[2423]: Starting Evolution source registry...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Aug 18 09:38:13 chentoz dbus-daemon[956]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.79' (uid=1000 pid=2592 comm="/usr/bin/gnome-shell " label="unconfined")
+Aug 18 09:38:13 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+Aug 18 09:38:13 chentoz systemd[2423]: Started Evolution source registry.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:13 chentoz systemd[1]: Starting Location Lookup Service...
+-- Subject: Unit geoclue.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit geoclue.service has begun starting up.
+Aug 18 09:38:13 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.gnome.Shell.CalendarServer'
+Aug 18 09:38:13 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating service name='ca.desrt.dconf' requested by ':1.21' (uid=1000 pid=2592 comm="/usr/bin/gnome-shell " label="unconfined")
+Aug 18 09:38:13 chentoz dbus-daemon[956]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+Aug 18 09:38:13 chentoz systemd[1]: Started Location Lookup Service.
+-- Subject: Unit geoclue.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit geoclue.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:13 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'ca.desrt.dconf'
+Aug 18 09:38:13 chentoz polkitd(authority=local)[1115]: [0;1;39m[0;1;31m[0;1;39mRegistered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)[0m
+Aug 18 09:38:13 chentoz gnome-shell[2592]: [0;1;39m[0;1;31m[0;1;39mTelepathy is not available, chat integration will be disabled.[0m
+Aug 18 09:38:13 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.21' (uid=1000 pid=2592 comm="/usr/bin/gnome-shell " label="unconfined")
+Aug 18 09:38:13 chentoz systemd[2423]: Starting Virtual filesystem service - disk device monitor...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Aug 18 09:38:13 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Aug 18 09:38:13 chentoz systemd[2423]: Started Virtual filesystem service - disk device monitor.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:13 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.21' (uid=1000 pid=2592 comm="/usr/bin/gnome-shell " label="unconfined")
+Aug 18 09:38:13 chentoz systemd[2423]: Starting Virtual filesystem service - Apple File Conduit monitor...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Aug 18 09:38:13 chentoz gvfs-afc-volume-monitor[2697]: Volume monitor alive
+Aug 18 09:38:13 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Aug 18 09:38:13 chentoz systemd[2423]: Started Virtual filesystem service - Apple File Conduit monitor.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:13 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.21' (uid=1000 pid=2592 comm="/usr/bin/gnome-shell " label="unconfined")
+Aug 18 09:38:13 chentoz systemd[2423]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Aug 18 09:38:13 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Aug 18 09:38:13 chentoz systemd[2423]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:13 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.21' (uid=1000 pid=2592 comm="/usr/bin/gnome-shell " label="unconfined")
+Aug 18 09:38:13 chentoz systemd[2423]: Starting Virtual filesystem service - digital camera monitor...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Aug 18 09:38:13 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Aug 18 09:38:13 chentoz systemd[2423]: Started Virtual filesystem service - digital camera monitor.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:13 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.21' (uid=1000 pid=2592 comm="/usr/bin/gnome-shell " label="unconfined")
+Aug 18 09:38:13 chentoz systemd[2423]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Aug 18 09:38:13 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Aug 18 09:38:13 chentoz systemd[2423]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:13 chentoz gnome-shell[2592]: [0;1;39m[0;1;31m[0;1;39mJS WARNING: [/home/chentoz/.local/share/gnome-shell/extensions/ibus-indicator@example.com/extension.js 4]: reference to undefined property "extensions"[0m
+Aug 18 09:38:13 chentoz gnome-shell[2592]: [0;1;39m[0;1;31m[0;1;39mExtension "ibus-indicator@example.com" had error: TypeError: imports.ui.extensionSystem.extensions is undefined[0m
+Aug 18 09:38:13 chentoz spice-vdagent[2747]: [0;1;31m[0;1;39m[0;1;31mCannot access vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0[0m
+Aug 18 09:38:13 chentoz gnome-session[2457]: gnome-session-binary[2457]: WARNING: App 'spice-vdagent.desktop' exited with code 1
+Aug 18 09:38:13 chentoz gnome-session-binary[2457]: [0;1;39m[0;1;31m[0;1;39mWARNING: App 'spice-vdagent.desktop' exited with code 1[0m
+Aug 18 09:38:13 chentoz gnome-shell[2592]: [0;1;39m[0;1;31m[0;1;39mJS WARNING: [/usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js 1028]: unreachable code after return statement[0m
+Aug 18 09:38:13 chentoz kernel: rfkill: input handler disabled
+Aug 18 09:38:13 chentoz dbus-daemon[956]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.109' (uid=1000 pid=2758 comm="/usr/lib/gnome-settings-daemon/gsd-datetime " label="unconfined")
+Aug 18 09:38:13 chentoz gsd-xsettings[2741]: [0;1;39m[0;1;31m[0;1;39mFailed to get current display configuration state: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Name "org.gnome.Mutter.DisplayConfig" does not exist[0m
+Aug 18 09:38:13 chentoz systemd[1]: Starting Time & Date Service...
+-- Subject: Unit systemd-timedated.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-timedated.service has begun starting up.
+Aug 18 09:38:13 chentoz gsd-sharing[2731]: [0;1;39m[0;1;31m[0;1;39mFailed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.[0m
+Aug 18 09:38:13 chentoz gsd-sharing[2731]: [0;1;39m[0;1;31m[0;1;39mFailed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.[0m
+Aug 18 09:38:13 chentoz gsd-sharing[2731]: [0;1;39m[0;1;31m[0;1;39mFailed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.[0m
+Aug 18 09:38:13 chentoz dbus-daemon[956]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Aug 18 09:38:13 chentoz systemd[1]: Started Time & Date Service.
+-- Subject: Unit systemd-timedated.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-timedated.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:13 chentoz gnome-session-binary[2457]: [0;1;39m[0;1;31m[0;1;39mEntering running state[0m
+Aug 18 09:38:14 chentoz vmtoolsd[2832]: [0;1;39m[0;1;31m[0;1;39mgtk_disable_setlocale() must be called before gtk_init()[0m
+Aug 18 09:38:14 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar7' unit='evolution-calendar-factory.service' requested by ':1.30' (uid=1000 pid=2665 comm="/usr/lib/gnome-shell/gnome-shell-calendar-server " label="unconfined")
+Aug 18 09:38:14 chentoz systemd[2423]: Starting Evolution calendar service...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Aug 18 09:38:14 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating service name='org.freedesktop.FileManager1' requested by ':1.58' (uid=1000 pid=2824 comm="nautilus-desktop " label="unconfined")
+Aug 18 09:38:14 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.freedesktop.FileManager1'
+Aug 18 09:38:14 chentoz gnome-shell[2592]: [0;1;39m[0;1;31m[0;1;39m[AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.62/org/ayatana/NotificationItem/Sticky_Notes[0m
+Aug 18 09:38:14 chentoz evolution-calen[2865]: [0;1;39m[0;1;31m[0;1;39mmodule_load: libprotobuf.so.10: cannot open shared object file: No such file or directory[0m
+Aug 18 09:38:14 chentoz evolution-calendar-factory[2865]: Failed to load module: /usr/lib/evolution-data-server/calendar-backends/libecalbackendcontacts.so
+Aug 18 09:38:14 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.gnome.evolution.dataserver.Calendar7'
+Aug 18 09:38:14 chentoz systemd[2423]: Started Evolution calendar service.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:14 chentoz gnome-shell-cal[2665]: [0;1;39m[0;1;31m[0;1;39mCould not load source 'birthdays': Backend factory for source “birthdays” and extension “Calendar” cannot be found.[0m
+Aug 18 09:38:14 chentoz gnome-shell[2592]: [0;1;39m[0;1;31m[0;1;39mError looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation[0m
+Aug 18 09:38:14 chentoz gsd-color[2760]: [0;1;39m[0;1;31m[0;1;39mfailed to get edid: unable to get EDID for output[0m
+Aug 18 09:38:14 chentoz gsd-color[2273]: [0;1;39m[0;1;31m[0;1;39mno xrandr-Virtual1 device found: Failed to find output xrandr-Virtual1[0m
+Aug 18 09:38:14 chentoz gsd-color[2760]: [0;1;39m[0;1;31m[0;1;39munable to get EDID for xrandr-Virtual1: unable to get EDID for output[0m
+Aug 18 09:38:14 chentoz nautilus-deskto[2824]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:38:14 chentoz nautilus-deskto[2824]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:38:14 chentoz nautilus-deskto[2824]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:38:14 chentoz nautilus-deskto[2824]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:38:14 chentoz nautilus-deskto[2824]: [0;1;39m[0;1;31m[0;1;39mCan not get _NET_WORKAREA[0m
+Aug 18 09:38:14 chentoz nautilus-deskto[2824]: [0;1;39m[0;1;31m[0;1;39mCan not determine workarea, guessing at layout[0m
+Aug 18 09:38:15 chentoz gnome-shell[2592]: [0;1;39m[0;1;31m[0;1;39mSTACK_OP_ADD: window 0x1c00001 already in stack[0m
+Aug 18 09:38:15 chentoz gnome-shell[2592]: [0;1;39m[0;1;31m[0;1;39mSTACK_OP_ADD: window 0x1c00001 already in stack[0m
+Aug 18 09:38:15 chentoz nautilus-deskto[2824]: [0;1;39m[0;1;31m[0;1;39mCalled "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)[0m
+Aug 18 09:38:15 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.58' (uid=1000 pid=2824 comm="nautilus-desktop " label="unconfined")
+Aug 18 09:38:15 chentoz systemd[2423]: Starting Virtual filesystem metadata service...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Aug 18 09:38:15 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.gtk.vfs.Metadata'
+Aug 18 09:38:15 chentoz systemd[2423]: Started Virtual filesystem metadata service.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:15 chentoz kernel: ISO 9660 Extensions: Microsoft Joliet Level 3
+Aug 18 09:38:15 chentoz kernel: ISO 9660 Extensions: RRIP_1991A
+Aug 18 09:38:15 chentoz systemd[1]: Created slice system-clean\x2dmount\x2dpoint.slice.
+-- Subject: Unit system-clean\x2dmount\x2dpoint.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit system-clean\x2dmount\x2dpoint.slice has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:15 chentoz systemd[1]: Started Clean the /media/chentoz/Ubuntu 18.04.4 LTS amd64 mount point.
+-- Subject: Unit clean-mount-point@media-chentoz-Ubuntu\x2018.04.4\x20LTS\x20amd64.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit clean-mount-point@media-chentoz-Ubuntu\x2018.04.4\x20LTS\x20amd64.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:38:15 chentoz udisksd[1018]: [0;1;39m[0;1;31m[0;1;39mMounted /dev/sr0 at /media/chentoz/Ubuntu 18.04.4 LTS amd64 on behalf of uid 1000[0m
+Aug 18 09:38:16 chentoz gnome-shell[2592]: GNOME Shell started at Tue Aug 18 2020 09:38:13 GMT+0800
+Aug 18 09:38:19 chentoz x-terminal-emul[2948]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:38:19 chentoz x-terminal-emul[2948]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:38:19 chentoz x-terminal-emul[2948]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:38:19 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39mWindow manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x2600007 (None)[0m
+Aug 18 09:38:21 chentoz gnome-shell[2592]: [0;1;39m[0;1;31m[0;1;39mJS ERROR: Exception in callback for signal: position-changed: TypeError: this._rect is null[0m
+                                           [0;1;39mgetCurrentRect@resource:///org/gnome/shell/ui/keyboard.js:561:22[0m
+                                           [0;1;39mwrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22[0m
+                                           [0;1;39m_onFocusPositionChanged@resource:///org/gnome/shell/ui/keyboard.js:643:20[0m
+                                           [0;1;39mwrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22[0m
+                                           [0;1;39m_emit@resource:///org/gnome/gjs/modules/signals.js:128:27[0m
+                                           [0;1;39m_setCurrentWindow/this._currentWindowPositionId<@resource:///org/gnome/shell/ui/keyboard.js:535:21[0m
+Aug 18 09:38:33 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Aug 18 09:38:43 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Aug 18 09:38:54 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Aug 18 09:39:01 chentoz gnome-keyring-daemon[2438]: [0;1;39m[0;1;31m[0;1;39masked to register item /org/freedesktop/secrets/collection/Default_5fkeyring/1, but it's already registered[0m
+Aug 18 09:39:01 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m(google-chrome-stable:3178): GLib-GIO-CRITICAL **: 09:39:01.657: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:39:01 chentoz gnome-keyring-daemon[2438]: [0;1;39m[0;1;31m[0;1;39masked to register item /org/freedesktop/secrets/collection/Default_5fkeyring/1, but it's already registered[0m
+Aug 18 09:39:01 chentoz CRON[3354]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 09:39:01 chentoz CRON[3359]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Aug 18 09:39:01 chentoz CRON[3354]: pam_unix(cron:session): session closed for user root
+Aug 18 09:39:04 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Aug 18 09:39:04 chentoz systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+Aug 18 09:39:04 chentoz systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:39:09 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3206:0818/093909.673077:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -130[0m
+Aug 18 09:39:16 chentoz gnome-software[3773]: [0;1;39m[0;1;31m[0;1;39mplugin appstream took 1.4 seconds to do setup[0m
+Aug 18 09:39:16 chentoz gnome-software[3773]: enabled plugins: ubuntuone, os-release, packagekit-local, packagekit-offline, systemd-updates, packagekit, packagekit-refresh, packagekit-proxy, packagekit-refine-repos, desktop-categories, fwupd, packagekit-upgrade, packagekit-url-to-app, shell-extensions, appstream, odrs, hardcoded-popular, steam, modalias, desktop-menu-path, hardcoded-blacklist, packagekit-refine, hardcoded-featured, rewrite-resource, generic-updates, snap, packagekit-history, provenance, icons, provenance-license, key-colors, key-colors-metadata
+Aug 18 09:39:16 chentoz gnome-software[3773]: disabled plugins: dpkg, dummy, repos, epiphany
+Aug 18 09:39:16 chentoz dbus-daemon[956]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.123' (uid=1000 pid=3773 comm="/usr/bin/gnome-software --gapplication-service " label="unconfined")
+Aug 18 09:39:16 chentoz gnome-software[3773]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:39:16 chentoz systemd[1]: Starting Firmware update daemon...
+-- Subject: Unit fwupd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit fwupd.service has begun starting up.
+Aug 18 09:39:16 chentoz dbus-daemon[956]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Aug 18 09:39:16 chentoz systemd[1]: Started Firmware update daemon.
+-- Subject: Unit fwupd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit fwupd.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:39:17 chentoz PackageKit[2258]: get-updates transaction /2110_ccccbdde from uid 1000 finished with success after 782ms
+Aug 18 09:39:17 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39mFontconfig error: Cannot load default config file: No such file: (null)[0m
+Aug 18 09:39:17 chentoz PackageKit[2258]: resolve transaction /2111_badaabda from uid 1000 finished with success after 516ms
+Aug 18 09:39:17 chentoz gnome-software[3773]: [0;1;39m[0;1;31m[0;1;39mOnly 1 apps for recent list, hiding[0m
+Aug 18 09:39:17 chentoz gnome-shell[2592]: [0;1;39m[0;1;31m[0;1;39m[AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.74/org/ayatana/NotificationItem/software_update_available[0m
+Aug 18 09:39:17 chentoz gnome-shell[2592]: [0;1;39m[0;1;31m[0;1;39m[AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.74/org/ayatana/NotificationItem/livepatch[0m
+Aug 18 09:39:18 chentoz PackageKit[2258]: resolve transaction /2112_ecabedee from uid 1000 finished with success after 480ms
+Aug 18 09:39:20 chentoz PackageKit[2258]: search-file transaction /2113_ddceebcd from uid 1000 finished with success after 1957ms
+Aug 18 09:39:20 chentoz PackageKit[2258]: search-file transaction /2114_bccabaad from uid 1000 finished with success after 509ms
+Aug 18 09:39:21 chentoz PackageKit[2258]: search-file transaction /2115_bacdbbcb from uid 1000 finished with success after 553ms
+Aug 18 09:39:21 chentoz PackageKit[2258]: search-file transaction /2116_dcbeecad from uid 1000 finished with success after 623ms
+Aug 18 09:39:21 chentoz gnome-software[3773]: [0;1;39m[0;1;31m[0;1;39mFailed to find one package for org.qgis.qgis.desktop, /usr/share/applications/org.qgis.qgis.desktop, [0][0m
+Aug 18 09:39:22 chentoz PackageKit[2258]: search-file transaction /2117_eeacabbc from uid 1000 finished with success after 522ms
+Aug 18 09:39:23 chentoz PackageKit[2258]: search-file transaction /2118_ebcdcbdd from uid 1000 finished with success after 551ms
+Aug 18 09:39:23 chentoz PackageKit[2258]: search-file transaction /2119_cbaeebab from uid 1000 finished with success after 506ms
+Aug 18 09:39:24 chentoz PackageKit[2258]: search-file transaction /2120_eaeebcea from uid 1000 finished with success after 558ms
+Aug 18 09:39:24 chentoz PackageKit[2258]: search-file transaction /2121_eaadacad from uid 1000 finished with success after 515ms
+Aug 18 09:39:24 chentoz avahi-daemon[911]: Leaving mDNS multicast group on interface ens33.IPv6 with address fe80::20c:29ff:fefc:6b36.
+Aug 18 09:39:24 chentoz avahi-daemon[911]: Joining mDNS multicast group on interface ens33.IPv6 with address fd2b:3747:d1c9:0:20c:29ff:fefc:6b36.
+Aug 18 09:39:24 chentoz avahi-daemon[911]: Registering new address record for fd2b:3747:d1c9:0:20c:29ff:fefc:6b36 on ens33.*.
+Aug 18 09:39:24 chentoz avahi-daemon[911]: Withdrawing address record for fe80::20c:29ff:fefc:6b36 on ens33.
+Aug 18 09:39:25 chentoz PackageKit[2258]: search-file transaction /2122_becebbbd from uid 1000 finished with success after 546ms
+Aug 18 09:39:25 chentoz PackageKit[2258]: search-file transaction /2123_aacbbcbd from uid 1000 finished with success after 508ms
+Aug 18 09:39:25 chentoz avahi-daemon[911]: Registering new address record for 240e:3a1:42a1:1604:20c:29ff:fefc:6b36 on ens33.*.
+Aug 18 09:39:25 chentoz avahi-daemon[911]: Registering new address record for fd75:4078:a1c9:4:20c:29ff:fefc:6b36 on ens33.*.
+Aug 18 09:39:26 chentoz PackageKit[2258]: search-file transaction /2124_edecdaed from uid 1000 finished with success after 541ms
+Aug 18 09:39:26 chentoz PackageKit[2258]: search-file transaction /2125_eebddddd from uid 1000 finished with success after 581ms
+Aug 18 09:39:27 chentoz PackageKit[2258]: search-file transaction /2126_cadcdcdb from uid 1000 finished with success after 525ms
+Aug 18 09:39:27 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3206:0818/093927.845576:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -130[0m
+Aug 18 09:39:27 chentoz PackageKit[2258]: search-file transaction /2127_dbdcadac from uid 1000 finished with success after 512ms
+Aug 18 09:39:28 chentoz PackageKit[2258]: search-file transaction /2128_baeecedd from uid 1000 finished with success after 533ms
+Aug 18 09:39:29 chentoz PackageKit[2258]: search-file transaction /2129_abaabebe from uid 1000 finished with success after 562ms
+Aug 18 09:39:29 chentoz PackageKit[2258]: search-file transaction /2130_cddcdaab from uid 1000 finished with success after 541ms
+Aug 18 09:39:30 chentoz PackageKit[2258]: search-file transaction /2131_aaaacbce from uid 1000 finished with success after 563ms
+Aug 18 09:39:30 chentoz PackageKit[2258]: search-file transaction /2132_edbbbcca from uid 1000 finished with success after 505ms
+Aug 18 09:39:31 chentoz PackageKit[2258]: get-details transaction /2133_dcbbcdbd from uid 1000 finished with success after 521ms
+Aug 18 09:39:31 chentoz gnome-software[3773]: [0;1;39m[0;1;31m[0;1;39mFailed to load snap icon: local snap has no icon[0m
+Aug 18 09:39:32 chentoz gnome-software[3773]: [0;1;39m[0;1;31m[0;1;39mFailed to load snap icon: local snap has no icon[0m
+Aug 18 09:39:33 chentoz gnome-shell[2592]: [0;1;39m[0;1;31m[0;1;39mJS WARNING: [resource:///org/gnome/shell/ui/search.js 506]: reference to undefined property "_searchCancelTimeoutId"[0m
+Aug 18 09:39:33 chentoz gnome-shell[2592]: [0;1;39m[0;1;31m[0;1;39mJS WARNING: [resource:///org/gnome/shell/ui/search.js 599]: reference to undefined property "_searchCancelTimeoutId"[0m
+Aug 18 09:39:33 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating service name='org.gnome.ControlCenter.SearchProvider' requested by ':1.21' (uid=1000 pid=2592 comm="/usr/bin/gnome-shell " label="unconfined")
+Aug 18 09:39:33 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating service name='org.gnome.Nautilus' requested by ':1.21' (uid=1000 pid=2592 comm="/usr/bin/gnome-shell " label="unconfined")
+Aug 18 09:39:33 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating service name='org.gnome.Calendar' requested by ':1.21' (uid=1000 pid=2592 comm="/usr/bin/gnome-shell " label="unconfined")
+Aug 18 09:39:33 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating service name='org.gnome.seahorse.Application' requested by ':1.21' (uid=1000 pid=2592 comm="/usr/bin/gnome-shell " label="unconfined")
+Aug 18 09:39:33 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.21' (uid=1000 pid=2592 comm="/usr/bin/gnome-shell " label="unconfined")
+Aug 18 09:39:33 chentoz systemd[2423]: Starting GNOME Terminal Server...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Aug 18 09:39:33 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.gnome.ControlCenter.SearchProvider'
+Aug 18 09:39:33 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.gnome.Nautilus'
+Aug 18 09:39:33 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.gnome.Calendar'
+Aug 18 09:39:33 chentoz gnome-software[3773]: [0;1;39m[0;1;31m[0;1;39mFailed to load snap icon: local snap has no icon[0m
+Aug 18 09:39:33 chentoz nautilus[4017]: [0;1;39m[0;1;31m[0;1;39mg_key_file_load_from_file: assertion 'file != NULL' failed[0m
+Aug 18 09:39:33 chentoz nautilus[4017]: [0;1;39m[0;1;31m[0;1;39mCould not establish a connection to Tracker: Failed to load SPARQL backend: Key file does not have group “DomainOntology”[0m
+Aug 18 09:39:33 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.gnome.seahorse.Application'
+Aug 18 09:39:33 chentoz dbus-daemon[2454]: [session uid=1000 pid=2454] Successfully activated service 'org.gnome.Terminal'
+Aug 18 09:39:33 chentoz systemd[2423]: Started GNOME Terminal Server.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:39:33 chentoz gnome-calendar[4019]: [0;1;39m[0;1;31m[0;1;39mon_client_connected: Failed to open/connect 'Birthdays & Anniversaries': Unable to connect to “Birthdays & Anniversaries”: Backend factory for source “birthdays” and extension “Calendar” cannot be found.[0m
+Aug 18 09:39:33 chentoz nautilus[4017]: [0;1;39m[0;1;31m[0;1;39mg_queue_pop_head: assertion 'queue != NULL' failed[0m
+Aug 18 09:39:33 chentoz nautilus[4017]: [0;1;39m[0;1;31m[0;1;39mg_queue_pop_head: assertion 'queue != NULL' failed[0m
+Aug 18 09:39:33 chentoz nautilus[4017]: [0;1;39m[0;1;31m[0;1;39mg_queue_foreach: assertion 'queue != NULL' failed[0m
+Aug 18 09:39:33 chentoz nautilus[4017]: [0;1;39m[0;1;31m[0;1;39mg_queue_free: assertion 'queue != NULL' failed[0m
+Aug 18 09:39:34 chentoz nautilus[4017]: [0;1;39m[0;1;31m[0;1;39mg_queue_foreach: assertion 'queue != NULL' failed[0m
+Aug 18 09:39:34 chentoz nautilus[4017]: [0;1;39m[0;1;31m[0;1;39mg_queue_free: assertion 'queue != NULL' failed[0m
+Aug 18 09:39:35 chentoz gnome-control-c[4091]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:39:35 chentoz gnome-control-c[4091]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:39:35 chentoz gnome-control-c[4091]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:39:35 chentoz gnome-control-c[4091]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:39:35 chentoz gnome-control-c[4091]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:39:35 chentoz gnome-control-c[4091]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:39:35 chentoz gnome-control-c[4091]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:39:35 chentoz gnome-control-c[4091]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:39:35 chentoz gnome-control-c[4091]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:39:35 chentoz gnome-control-c[4091]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:39:35 chentoz gnome-control-c[4091]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:39:35 chentoz gnome-control-c[4091]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:39:37 chentoz gnome-software[3773]: [0;1;39m[0;1;31m[0;1;39mFailed to load snap icon: local snap has no icon[0m
+Aug 18 09:39:37 chentoz gnome-software[3773]: [0;1;39m[0;1;31m[0;1;39mFailed to load snap icon: local snap has no icon[0m
+Aug 18 09:39:37 chentoz gnome-software[3773]: [0;1;39m[0;1;31m[0;1;39mFailed to load snap icon: local snap has no icon[0m
+Aug 18 09:39:47 chentoz systemd-timesyncd[870]: Timed out waiting for reply from [2001:67c:1560:8003::c8]:123 (ntp.ubuntu.com).
+Aug 18 09:39:47 chentoz kernel: INFO: NMI handler (perf_event_nmi_handler) took too long to run: 0.000 msecs
+Aug 18 09:39:47 chentoz kernel: perf: interrupt took too long (16252 > 2500), lowering kernel.perf_event_max_sample_rate to 12250
+Aug 18 09:39:57 chentoz systemd-timesyncd[870]: Timed out waiting for reply from [2001:67c:1560:8003::c7]:123 (ntp.ubuntu.com).
+Aug 18 09:40:01 chentoz CRON[4225]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 09:40:01 chentoz CRON[4224]: pam_unix(cron:session): session opened for user chentoz by (uid=0)
+Aug 18 09:40:01 chentoz CRON[4226]: (root) CMD (/usr/local/bin/backup_configs.sh >> /tmp/backup.log 2>&1 &)
+Aug 18 09:40:01 chentoz CRON[4227]: (chentoz) CMD (/usr/local/bin/backup_configs.sh >> /tmp/backup.log 2>&1 &)
+Aug 18 09:40:01 chentoz CRON[4225]: pam_unix(cron:session): session closed for user root
+Aug 18 09:40:01 chentoz CRON[4224]: pam_unix(cron:session): session closed for user chentoz
+Aug 18 09:40:01 chentoz sudo[4236]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=unknown ; PWD=/home/chentoz/Downloads/linux-toolsets ; USER=root ; COMMAND=/usr/bin/dconf dump /[0m
+Aug 18 09:40:01 chentoz sudo[4236]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 18 09:40:02 chentoz sudo[4236]: pam_unix(sudo:session): session closed for user root
+Aug 18 09:40:07 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Aug 18 09:40:17 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Aug 18 09:40:27 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Aug 18 09:40:38 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Aug 18 09:41:52 chentoz systemd-timesyncd[870]: Timed out waiting for reply from [2001:67c:1560:8003::c8]:123 (ntp.ubuntu.com).
+Aug 18 09:42:02 chentoz systemd-timesyncd[870]: Timed out waiting for reply from [2001:67c:1560:8003::c7]:123 (ntp.ubuntu.com).
+Aug 18 09:42:13 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Aug 18 09:42:23 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Aug 18 09:42:33 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Aug 18 09:42:43 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Aug 18 09:45:01 chentoz CRON[5026]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 09:45:01 chentoz CRON[5027]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 18 09:45:01 chentoz CRON[5026]: pam_unix(cron:session): session closed for user root
+Aug 18 09:45:02 chentoz systemd-timesyncd[870]: Timed out waiting for reply from [2001:67c:1560:8003::c7]:123 (ntp.ubuntu.com).
+Aug 18 09:45:12 chentoz systemd-timesyncd[870]: Timed out waiting for reply from [2001:67c:1560:8003::c8]:123 (ntp.ubuntu.com).
+Aug 18 09:45:22 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Aug 18 09:45:33 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Aug 18 09:45:43 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Aug 18 09:45:53 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Aug 18 09:50:01 chentoz CRON[5786]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 09:50:01 chentoz CRON[5788]: (root) CMD (/usr/local/bin/backup_configs.sh >> /tmp/backup.log 2>&1 &)
+Aug 18 09:50:01 chentoz CRON[5786]: pam_unix(cron:session): session closed for user root
+Aug 18 09:50:01 chentoz CRON[5785]: pam_unix(cron:session): session opened for user chentoz by (uid=0)
+Aug 18 09:50:01 chentoz CRON[5791]: (chentoz) CMD (/usr/local/bin/backup_configs.sh >> /tmp/backup.log 2>&1 &)
+Aug 18 09:50:01 chentoz CRON[5785]: pam_unix(cron:session): session closed for user chentoz
+Aug 18 09:50:01 chentoz sudo[5796]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=unknown ; PWD=/home/chentoz/Downloads/linux-toolsets ; USER=root ; COMMAND=/usr/bin/dconf dump /[0m
+Aug 18 09:50:01 chentoz sudo[5796]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 18 09:50:01 chentoz sudo[5796]: pam_unix(sudo:session): session closed for user root
+Aug 18 09:50:01 chentoz systemd-resolved[1399]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 192.168.31.1.
+Aug 18 09:50:09 chentoz systemd-resolved[1399]: [0;1;39m[0;1;31m[0;1;39mUsing degraded feature set (UDP) for DNS server 192.168.31.1.[0m
+Aug 18 09:50:25 chentoz systemd-timesyncd[870]: Timed out waiting for reply from [2001:67c:1560:8003::c8]:123 (ntp.ubuntu.com).
+Aug 18 09:50:35 chentoz systemd-timesyncd[870]: Timed out waiting for reply from [2001:67c:1560:8003::c7]:123 (ntp.ubuntu.com).
+Aug 18 09:50:45 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Aug 18 09:50:55 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Aug 18 09:51:06 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Aug 18 09:51:16 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Aug 18 09:52:49 chentoz systemd[1]: Starting Cleanup of Temporary Directories...
+-- Subject: Unit systemd-tmpfiles-clean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-tmpfiles-clean.service has begun starting up.
+Aug 18 09:52:49 chentoz systemd[1]: Started Cleanup of Temporary Directories.
+-- Subject: Unit systemd-tmpfiles-clean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-tmpfiles-clean.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 09:53:20 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095320.722504:ERROR:CONSOLE(1)] "Refused to execute inline event handler because it violates the following Content Security Policy directive: "script-src 'strict-dynamic' 'sha256-1+GSDjMMklBjZY0QiWq+tGupCvajw4Xbn46ect2mZgM=' 'sha256-2mX1M62Fd0u8q0dQY2mRsK5S1NS9jJuQAvyE8tD0dkQ=' 'sha256-EtIKSV82ixJHE3AzqhoiVbUGKG+Kd8XS0fFToow29o0=' 'sha256-QSyFltV9X3gkyBrg+SMfKvZNXmqPQc6K4B6OYhTuXmw=' 'sha256-4M0jdrILwm/h3mCRbjIF07jAlCbI0ZbyLjQL/9HVhwE=' 'sha256-CbH+xPsBKQxVw5d9blISLDeuMSe1M+dJ4xfArFynIfw=' 'sha256-C9ctze2LhHtwL+fcPVPkmVRYjQgXTGs4xfBAzlQwGWk=' 'sha256-zMVvHss5Z7u6w4bd07GlEWKaRwb8wFQKcJYJT/piG7g='". Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution.[0m
+Aug 18 09:53:20 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m", source: chrome-search://local-ntp/local-ntp.html (1)[0m
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: > Start DBeaver Standalone [org.jkiss.dbeaver.ui.app.standalone 7.1.0.202005311732]
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: > Start Eclipse e4 Workbench [org.eclipse.e4.ui.workbench 1.11.200.v20200205-1503]
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: > Start Eclipse Workbench Model [org.eclipse.e4.ui.model.workbench 2.1.700.v20200113-1422]
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: > Start Eclipse Jobs Mechanism [org.eclipse.core.jobs 3.10.700.v20200106-1020]
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: > Start Eclipse IDE UI [org.eclipse.ui.ide 3.17.0.v20200217-1511]
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: > Start DBeaver Core Plug-in [org.jkiss.dbeaver.core 7.1.0.202005311732]
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: > Start Core File Systems [org.eclipse.core.filesystem 1.7.700.v20200110-1734]
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: > Start Core Resource Management [org.eclipse.core.resources 3.13.700.v20200209-1624]
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:54.503 - Initializing DBeaver 7.1.0
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:54.503 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 7.1.0.202005311732
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:54.503 - Initialize Core...
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:54.504 - Can't find BC security provider. Use default JCE.
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:54.504 - BouncyCastle not registered, using the default JCE provider
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:54.586 - Initialize base platform...
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.34.202005311732]
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:54.615 - Core initialized (112ms)
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:54.619 - Create display
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: > Start Eclipse IDE UI Application [org.eclipse.ui.ide.application 1.3.600.v20200116-2127]
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:54.747 - DBeaver 7.1.0.202005311732 is starting
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:54.748 - OS: Linux 5.4.0-42-generic (amd64)
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:54.748 - Java version: 11.0.8 by Ubuntu (64bit)
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:54.748 - Install path: '/usr/share/dbeaver'
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:54.748 - Instance path: 'file:/home/chentoz/.local/share/DBeaverData/workspace6/'
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:54.748 - Memory available 66Mb/1024Mb
+Aug 18 09:54:54 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39mWindow manager warning: Window 0x3600003 (Dbeaver) sets an MWM hint indicating it isn't resizable, but sets min size 600 x 301 and max size 2147483647 x 2147483647; this doesn't make much sense.[0m
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:54.774 - Starting RMI server at 38508
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:54.849 - Run workbench
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: > Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.14.900.v20200213-1442]
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: > Start Eclipse Application Services [org.eclipse.e4.core.services 2.2.200.v20200127-0814]
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: > Start Eclipse Contexts [org.eclipse.e4.core.contexts 1.8.400.v20191217-1710]
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.3.700.v20190930-1643]
+Aug 18 09:54:54 chentoz dbeaver.desktop[6591]: > Start EMF Common [org.eclipse.emf.common 2.18.0.v20191225-1014]
+Aug 18 09:54:55 chentoz dbeaver.desktop[6591]: > Start EMF Ecore [org.eclipse.emf.ecore 2.21.0.v20200127-1342]
+Aug 18 09:54:55 chentoz dbeaver.desktop[6591]: > Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.16.0.v20190528-0725]
+Aug 18 09:54:55 chentoz dbeaver.desktop[6591]: > Start Eclipse UI Dependency Injection [org.eclipse.e4.ui.di 1.2.800.v20200128-0855]
+Aug 18 09:54:55 chentoz dbeaver.desktop[6591]: > Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.3.800.v20191212-1231]
+Aug 18 09:54:55 chentoz dbeaver.desktop[6591]: > Start Expression Language [org.eclipse.core.expressions 3.6.700.v20200212-1751]
+Aug 18 09:54:55 chentoz dbeaver.desktop[6591]: > Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.14.1100.v20200217-1217]
+Aug 18 09:54:55 chentoz dbeaver.desktop[6591]: > Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.12.800.v20191216-0805]
+Aug 18 09:54:55 chentoz dbeaver.desktop[6591]: > Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.15.500.v20200106-1259]
+Aug 18 09:54:55 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:54:55 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:54:55 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:54:55 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mg_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed[0m
+Aug 18 09:54:55 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39mWindow manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3600003 (DBeaver )[0m
+Aug 18 09:54:55 chentoz dbeaver.desktop[6591]: > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.13.900.v20200203-0840]
+Aug 18 09:54:56 chentoz dbeaver.desktop[6591]: > Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.12.600.v20200124-0005]
+Aug 18 09:54:56 chentoz dbeaver.desktop[6591]: > Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.49.202005311732]
+Aug 18 09:54:56 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:56.379 - Configure workbench window
+Aug 18 09:54:56 chentoz dbeaver.desktop[6591]: > Start Help System Core [org.eclipse.help 3.8.700.v20191212-1123]
+Aug 18 09:54:56 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:56.717 - Create actions
+Aug 18 09:54:56 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:56.718 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+Aug 18 09:54:56 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:56.718 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:57.172 - Initialize workbench window
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:57.181 - Finish initialization
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: > Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.34.202005311732]
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: > Start Default Text Editor [org.eclipse.ui.editors 3.13.100.v20200130-1507]
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: > Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.14.100.v20200212-1049]
+Aug 18 09:54:57 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -11 (allocation 1, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: > Start File Buffers [org.eclipse.core.filebuffers 3.6.900.v20200117-0616]
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: > Start Equinox Provisioning Core [org.eclipse.equinox.p2.core 2.6.300.v20200211-1504]
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: > Start Equinox Provisioning Operations API [org.eclipse.equinox.p2.operations 2.5.700.v20191211-1713]
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: > Start Equinox Provisioning Platform Automatic Update Support [org.eclipse.equinox.p2.ui.sdk.scheduler 1.4.600.v20200221-0754]
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: > Start Equinox Provisioning Metadata [org.eclipse.equinox.p2.metadata 2.4.700.v20191213-1911]
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: > Start Equinox Provisioning Update Checker [org.eclipse.equinox.p2.updatechecker 1.2.300.v20200222-1600]
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: > Start Equinox Provisioning Engine [org.eclipse.equinox.p2.engine 2.6.600.v20200110-2121]
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: > Start Equinox Provisioning Metadata Repository [org.eclipse.equinox.p2.metadata.repository 1.3.400.v20191211-1528]
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: > Start Equinox Provisioning Repository [org.eclipse.equinox.p2.repository 2.4.700.v20200110-2121]
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.24.202005311732]
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: > Start Equinox Provisioning UI Support [org.eclipse.equinox.p2.ui 2.5.800.v20200213-1530]
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:57.926 - Loading user drivers configuration from '/home/chentoz/.local/share/DBeaverData/workspace6/.metadata/.plugins/org.jkiss.dbeaver.core/drivers.xml'
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:57.934 - Total database drivers: 81 (81)
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: > Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.34.202005311732]
+Aug 18 09:54:57 chentoz dbeaver.desktop[6591]: > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.34.202005311732]
+Aug 18 09:54:58 chentoz dbeaver.desktop[6591]: > Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.71.202005311732]
+Aug 18 09:54:58 chentoz dbeaver.desktop[6591]: > Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.40.202005311732]
+Aug 18 09:54:58 chentoz dbeaver.desktop[6591]: > Start DBeaver ER Diagram [org.jkiss.dbeaver.ext.erd 2.0.136.202005311732]
+Aug 18 09:54:58 chentoz dbeaver.desktop[6591]: > Start Team Support Core [org.eclipse.team.core 3.8.900.v20200211-0946]
+Aug 18 09:54:58 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:58.265 - Connect with 'postgres' (postgres-jdbc-17270c8c617-5a49677d20cb0f9a)
+Aug 18 09:54:58 chentoz dbeaver.desktop[6591]: > Start DBeaver PostgreSQL Support [org.jkiss.dbeaver.ext.postgresql 2.1.107.202005311732]
+Aug 18 09:54:58 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:58.660 - Execution context opened (postgres; Main <postgres>; 0)
+Aug 18 09:54:58 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:58.660 - Initiate connection to PostgreSQL database [postgres@localhost] for Main <postgres>
+Aug 18 09:54:58 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:58.749 - Execution context opened (postgres; Metadata <postgres>; 1)
+Aug 18 09:54:58 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:58.749 - Initiate connection to PostgreSQL database [postgres@localhost] for Metadata <postgres>
+Aug 18 09:54:58 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:58.840 - Connected (postgres-jdbc-17270c8c617-5a49677d20cb0f9a, PostgreSQL JDBC Driver [42.2.5])
+Aug 18 09:54:58 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:58.886 - Execution context opened (postgres; Main <gis-edit>; 2)
+Aug 18 09:54:58 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:58.886 - Initiate connection to PostgreSQL database [gis-edit@localhost] for Main <gis-edit>
+Aug 18 09:54:58 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:58.961 - Execution context opened (postgres; Metadata <gis-edit>; 3)
+Aug 18 09:54:58 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:58.962 - Initiate connection to PostgreSQL database [gis-edit@localhost] for Metadata <gis-edit>
+Aug 18 09:54:59 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:59.009 - Can't get column 'relhasoids': The column name relhasoids was not found in this ResultSet.
+Aug 18 09:54:59 chentoz dbeaver.desktop[6591]: > Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.3.500.v20200114-1637]
+Aug 18 09:54:59 chentoz dbeaver.desktop[6591]: > Start GEF (MVC) [org.eclipse.gef 3.11.0.201606061308]
+Aug 18 09:54:59 chentoz dbeaver.desktop[6591]: > Start Draw2d [org.eclipse.draw2d 3.10.100.201606061308]
+Aug 18 09:54:59 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:54:59 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:54:59 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:54:59 chentoz dbeaver.desktop[6591]: 2020-08-18 09:54:59.654 - Can't get column 'consrc': The column name consrc was not found in this ResultSet.
+Aug 18 09:54:59 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:54:59 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:54:59 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:54:59 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:54:59 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:54:59 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:54:59 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:54:59 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:54:59 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:54:59 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:54:59 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:54:59 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:55:00 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:55:00 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:55:00 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:55:00 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mgtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar[0m
+Aug 18 09:55:00 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mgtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar[0m
+Aug 18 09:55:00 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mgtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar[0m
+Aug 18 09:55:00 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:55:00 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:55:00 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mNegative content width -7 (allocation 5, extents 6x6) while allocating gadget (node separator, owner GtkSeparatorToolItem)[0m
+Aug 18 09:55:00 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mgtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar[0m
+Aug 18 09:55:00 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mgtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar[0m
+Aug 18 09:55:00 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mgtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar[0m
+Aug 18 09:55:00 chentoz java[6613]: [0;1;39m[0;1;31m[0;1;39mgtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar[0m
+Aug 18 09:55:01 chentoz CRON[6711]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 09:55:01 chentoz CRON[6714]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 18 09:55:01 chentoz CRON[6711]: pam_unix(cron:session): session closed for user root
+Aug 18 09:56:20 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3225:3230:0818/095620.007448:ERROR:ssl_client_socket_impl.cc(959)] handshake failed; returned -1, SSL error code 1, net_error -200[0m
+Aug 18 09:56:23 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095623.613393:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:24 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095624.724863:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:26 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095626.057164:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:27 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095627.141130:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:28 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095628.147434:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:29 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095629.163453:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:30 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095630.180784:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:31 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095631.196887:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:32 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095632.213977:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:33 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095633.230598:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:34 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095634.246702:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:35 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095635.263427:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:36 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095636.280090:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:37 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095637.297217:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:38 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095638.313373:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:39 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095639.330782:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:40 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095640.346847:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:41 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095641.363590:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:42 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095642.380282:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:43 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095643.396469:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:44 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095644.413250:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:45 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095645.429773:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:46 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095646.445400:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:47 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095647.446128:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:48 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095648.462512:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:49 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095649.480123:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:50 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095650.495219:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:51 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095651.496435:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:52 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095652.513047:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:53 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095653.529993:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:54 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095654.547625:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:55 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095655.564151:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:56 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095656.579968:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:57 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095657.597180:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:58 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095658.614270:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:56:59 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095659.631516:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:00 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095700.645458:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:01 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095701.662746:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:02 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095702.679804:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:03 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095703.694799:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:04 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095704.696168:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:05 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095705.714422:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:06 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095706.728844:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:07 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095707.745960:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:08 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095708.761932:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:09 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095709.778302:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:10 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095710.795878:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:11 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095711.813066:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:12 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095712.829009:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:13 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095713.845245:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:14 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095714.861853:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:15 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095715.878757:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:16 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095716.895049:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:17 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095717.911838:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:18 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095718.928922:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:19 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095719.946514:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:20 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095720.962249:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:21 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095721.978499:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:22 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095722.995515:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:24 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095724.012069:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:25 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095725.027690:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:26 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095726.044560:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:27 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095727.061309:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:28 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095728.077713:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:29 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095729.096068:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:30 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095730.111893:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:31 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095731.129145:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:32 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095732.144764:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:33 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095733.160827:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:34 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095734.178325:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:35 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095735.195651:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:36 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095736.212009:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:37 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095737.227813:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:38 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095738.246325:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:39 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095739.260767:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:40 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095740.277110:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:41 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095741.293878:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:42 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095742.295312:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:43 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095743.311905:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:44 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095744.328233:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:45 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095745.345477:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:46 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095746.360598:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:47 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095747.377236:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:48 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095748.394201:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:49 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095749.410490:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:50 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095750.426873:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:51 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095751.444422:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:52 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095752.460938:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:53 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095753.478021:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:54 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095754.493469:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:55 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095755.510013:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:56 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095756.527193:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:57 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095757.543013:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:58 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095758.561199:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:57:59 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095759.576743:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:58:00 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095800.595329:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:58:01 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095801.610401:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:58:02 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095802.628032:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:58:03 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095803.644438:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:58:04 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095804.660001:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:58:05 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095805.677102:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:58:06 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095806.692902:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:58:07 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095807.709585:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:58:08 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095808.726503:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:58:09 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095809.743503:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:58:10 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095810.761007:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:58:11 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095811.776893:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:58:12 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/095812.792817:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 3.987 s[0m
+Aug 18 09:59:58 chentoz systemd-timesyncd[870]: Timed out waiting for reply from [2001:67c:1560:8003::c7]:123 (ntp.ubuntu.com).
+Aug 18 10:00:01 chentoz CRON[7564]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 10:00:01 chentoz CRON[7563]: pam_unix(cron:session): session opened for user chentoz by (uid=0)
+Aug 18 10:00:01 chentoz CRON[7567]: (root) CMD (/usr/local/bin/backup_configs.sh >> /tmp/backup.log 2>&1 &)
+Aug 18 10:00:01 chentoz CRON[7568]: (chentoz) CMD (/usr/local/bin/backup_configs.sh >> /tmp/backup.log 2>&1 &)
+Aug 18 10:00:01 chentoz CRON[7564]: pam_unix(cron:session): session closed for user root
+Aug 18 10:00:01 chentoz CRON[7563]: pam_unix(cron:session): session closed for user chentoz
+Aug 18 10:00:01 chentoz sudo[7575]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=unknown ; PWD=/home/chentoz/Downloads/linux-toolsets ; USER=root ; COMMAND=/usr/bin/dconf dump /[0m
+Aug 18 10:00:01 chentoz sudo[7575]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 18 10:00:01 chentoz sudo[7575]: pam_unix(sudo:session): session closed for user root
+Aug 18 10:00:09 chentoz systemd-timesyncd[870]: Timed out waiting for reply from [2001:67c:1560:8003::c8]:123 (ntp.ubuntu.com).
+Aug 18 10:00:19 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]: 2020-08-18 10:00:25.374 - Execution context opened (postgres; Main <gis>; 4)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]: 2020-08-18 10:00:25.375 - Initiate connection to PostgreSQL database [gis@localhost] for Main <gis>
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]: 2020-08-18 10:00:25.397 - org.jkiss.dbeaver.model.exec.DBCConnectException: FATAL: database "gis" does not exist
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]: org.jkiss.dbeaver.model.exec.DBCConnectException: FATAL: database "gis" does not exist
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.ext.postgresql.model.PostgreDataSource.openConnection(PostgreDataSource.java:325)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:95)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:91)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase.checkInstanceConnection(PostgreDatabase.java:193)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase.getSchemas(PostgreDatabase.java:523)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.extractPropertyValue(DBNDatabaseNode.java:860)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.access$1(DBNDatabaseNode.java:841)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode$PropertyValueReader.run(DBNDatabaseNode.java:900)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode$PropertyValueReader.run(DBNDatabaseNode.java:1)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:170)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadTreeItems(DBNDatabaseNode.java:531)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:423)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:200)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:1)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNUtils.getNodeChildrenFiltered(DBNUtils.java:70)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:49)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:1)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:86)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:71)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]: Caused by: org.postgresql.util.PSQLException: FATAL: database "gis" does not exist
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.postgresql.Driver$ConnectThread.getResult(Driver.java:405)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.postgresql.Driver.connect(Driver.java:263)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.lambda$0(JDBCDataSource.java:176)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:195)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         ... 25 more
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]: 2020-08-18 10:00:25.405 - org.jkiss.dbeaver.model.exec.DBCConnectException: FATAL: database "gis" does not exist
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.ext.postgresql.model.PostgreDataSource.openConnection(PostgreDataSource.java:325)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:95)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:91)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase.checkInstanceConnection(PostgreDatabase.java:193)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase.getSchemas(PostgreDatabase.java:523)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.extractPropertyValue(DBNDatabaseNode.java:860)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.access$1(DBNDatabaseNode.java:841)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode$PropertyValueReader.run(DBNDatabaseNode.java:900)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode$PropertyValueReader.run(DBNDatabaseNode.java:1)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:170)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadTreeItems(DBNDatabaseNode.java:531)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:423)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:200)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:1)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.navigator.DBNUtils.getNodeChildrenFiltered(DBNUtils.java:70)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:49)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:1)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:86)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:71)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]: Caused by: org.postgresql.util.PSQLException: FATAL: database "gis" does not exist
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.postgresql.Driver$ConnectThread.getResult(Driver.java:405)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.postgresql.Driver.connect(Driver.java:263)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.lambda$0(JDBCDataSource.java:176)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:195)
+Aug 18 10:00:25 chentoz dbeaver.desktop[6591]:         ... 25 more
+Aug 18 10:00:29 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Aug 18 10:00:39 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Aug 18 10:00:50 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Aug 18 10:03:16 chentoz gnome-shell[2592]: [0;1;39m[0;1;31m[0;1;39mpushModal: invocation of begin_modal failed[0m
+Aug 18 10:04:09 chentoz systemd[1]: Started Run anacron jobs.
+-- Subject: Unit anacron.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit anacron.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 10:04:09 chentoz anacron[8330]: [0;1;39m[0;1;31m[0;1;39mAnacron 2.3 started on 2020-08-18[0m
+Aug 18 10:04:09 chentoz anacron[8330]: [0;1;39m[0;1;31m[0;1;39mNormal exit (0 jobs run)[0m
+Aug 18 10:05:01 chentoz CRON[8526]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 10:05:01 chentoz CRON[8529]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 18 10:05:01 chentoz CRON[8526]: pam_unix(cron:session): session closed for user root
+Aug 18 10:05:13 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39mFontconfig error: Cannot load default config file: No such file: (null)[0m
+Aug 18 10:09:01 chentoz systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+Aug 18 10:09:01 chentoz CRON[9447]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 10:09:01 chentoz CRON[9448]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Aug 18 10:09:01 chentoz CRON[9447]: pam_unix(cron:session): session closed for user root
+Aug 18 10:09:02 chentoz systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Aug 18 10:09:40 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/100940.946949:ERROR:CONSOLE(1)] "Refused to execute inline event handler because it violates the following Content Security Policy directive: "script-src 'strict-dynamic' 'sha256-1+GSDjMMklBjZY0QiWq+tGupCvajw4Xbn46ect2mZgM=' 'sha256-2mX1M62Fd0u8q0dQY2mRsK5S1NS9jJuQAvyE8tD0dkQ=' 'sha256-EtIKSV82ixJHE3AzqhoiVbUGKG+Kd8XS0fFToow29o0=' 'sha256-QSyFltV9X3gkyBrg+SMfKvZNXmqPQc6K4B6OYhTuXmw=' 'sha256-4M0jdrILwm/h3mCRbjIF07jAlCbI0ZbyLjQL/9HVhwE=' 'sha256-CbH+xPsBKQxVw5d9blISLDeuMSe1M+dJ4xfArFynIfw=' 'sha256-C9ctze2LhHtwL+fcPVPkmVRYjQgXTGs4xfBAzlQwGWk=' 'sha256-zMVvHss5Z7u6w4bd07GlEWKaRwb8wFQKcJYJT/piG7g='". Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution.[0m
+Aug 18 10:09:40 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m", source: chrome-search://local-ntp/local-ntp.html (1)[0m
+Aug 18 10:10:01 chentoz CRON[9765]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 10:10:01 chentoz CRON[9764]: pam_unix(cron:session): session opened for user chentoz by (uid=0)
+Aug 18 10:10:01 chentoz CRON[9768]: (root) CMD (/usr/local/bin/backup_configs.sh >> /tmp/backup.log 2>&1 &)
+Aug 18 10:10:01 chentoz CRON[9769]: (chentoz) CMD (/usr/local/bin/backup_configs.sh >> /tmp/backup.log 2>&1 &)
+Aug 18 10:10:01 chentoz CRON[9765]: pam_unix(cron:session): session closed for user root
+Aug 18 10:10:01 chentoz CRON[9764]: pam_unix(cron:session): session closed for user chentoz
+Aug 18 10:10:01 chentoz sudo[9776]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=unknown ; PWD=/home/chentoz/Downloads/linux-toolsets ; USER=root ; COMMAND=/usr/bin/dconf dump /[0m
+Aug 18 10:10:01 chentoz sudo[9776]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 18 10:10:01 chentoz sudo[9776]: pam_unix(sudo:session): session closed for user root
+Aug 18 10:13:24 chentoz sudo[10344]: [0;1;39m[0;1;31m[0;1;39m chentoz : TTY=pts/1 ; PWD=/home/chentoz/Downloads/openstreetmap-website ; USER=root ; COMMAND=/bin/mv /var/log/postgresql/postgresql-12-main.log /var/log/postgresql/postgresql-12-main.log_waster[0m
+Aug 18 10:13:24 chentoz sudo[10344]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 18 10:13:24 chentoz sudo[10344]: pam_unix(sudo:session): session closed for user root
+Aug 18 10:13:32 chentoz sudo[10370]: [0;1;39m[0;1;31m[0;1;39m chentoz : TTY=pts/1 ; PWD=/home/chentoz/Downloads/openstreetmap-website ; USER=root ; COMMAND=/usr/bin/touch /var/log/postgresql/postgresql-12-main.log[0m
+Aug 18 10:13:32 chentoz sudo[10370]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 18 10:13:32 chentoz sudo[10370]: pam_unix(sudo:session): session closed for user root
+Aug 18 10:15:01 chentoz CRON[10694]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 10:15:01 chentoz CRON[10696]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 18 10:15:01 chentoz CRON[10694]: pam_unix(cron:session): session closed for user root
+Aug 18 10:15:04 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101504.791800:ERROR:CONSOLE(1)] "Refused to execute inline event handler because it violates the following Content Security Policy directive: "script-src 'strict-dynamic' 'sha256-1+GSDjMMklBjZY0QiWq+tGupCvajw4Xbn46ect2mZgM=' 'sha256-2mX1M62Fd0u8q0dQY2mRsK5S1NS9jJuQAvyE8tD0dkQ=' 'sha256-EtIKSV82ixJHE3AzqhoiVbUGKG+Kd8XS0fFToow29o0=' 'sha256-QSyFltV9X3gkyBrg+SMfKvZNXmqPQc6K4B6OYhTuXmw=' 'sha256-4M0jdrILwm/h3mCRbjIF07jAlCbI0ZbyLjQL/9HVhwE=' 'sha256-CbH+xPsBKQxVw5d9blISLDeuMSe1M+dJ4xfArFynIfw=' 'sha256-C9ctze2LhHtwL+fcPVPkmVRYjQgXTGs4xfBAzlQwGWk=' 'sha256-zMVvHss5Z7u6w4bd07GlEWKaRwb8wFQKcJYJT/piG7g='". Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution.[0m
+Aug 18 10:15:04 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m", source: chrome-search://local-ntp/local-ntp.html (1)[0m
+Aug 18 10:17:01 chentoz CRON[11327]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 10:17:01 chentoz CRON[11328]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 18 10:17:01 chentoz CRON[11327]: pam_unix(cron:session): session closed for user root
+Aug 18 10:18:03 chentoz sudo[11544]: [0;1;39m[0;1;31m[0;1;39m chentoz : TTY=pts/1 ; PWD=/home/chentoz/Downloads/openstreetmap-website ; USER=root ; COMMAND=/bin/su postgres[0m
+Aug 18 10:18:03 chentoz sudo[11544]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 18 10:18:03 chentoz su[11545]: Successful su for postgres by root
+Aug 18 10:18:03 chentoz su[11545]: + /dev/pts/1 root:postgres
+Aug 18 10:18:03 chentoz su[11545]: pam_unix(su:session): session opened for user postgres by (uid=0)
+Aug 18 10:18:03 chentoz su[11545]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 18 10:18:04 chentoz systemd-timesyncd[870]: Timed out waiting for reply from [2001:67c:1560:8003::c7]:123 (ntp.ubuntu.com).
+Aug 18 10:18:14 chentoz systemd-timesyncd[870]: Timed out waiting for reply from [2001:67c:1560:8003::c8]:123 (ntp.ubuntu.com).
+Aug 18 10:18:25 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Aug 18 10:18:35 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Aug 18 10:18:45 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Aug 18 10:18:46 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101846.403629:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:18:46 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[11626:15:0818/101846.888771:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"{\"causes\":[{\"causes\":[],\"data\":{},\"stack\":[{\"file\":\"../../media/filters/decrypting_video_decoder.cc\",\"line\":53}],\"status_code\":264,\"status_message\":\"\"}],\"data\":{\"Decoder name\":\"DecryptingVideoDecoder\"},\"stack\":[{\"file\":\"../../media/filters/decoder_selector.cc\",\"line\":172}],\"status_code\":265,\"status_message\":\"\"}"}[0m
+Aug 18 10:18:46 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[11626:15:0818/101846.888992:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"{\"causes\":[{\"causes\":[],\"data\":{},\"stack\":[{\"file\":\"../../media/filters/vpx_video_decoder.cc\",\"line\":135}],\"status_code\":265,\"status_message\":\"\"}],\"data\":{\"Decoder name\":\"VpxVideoDecoder\"},\"stack\":[{\"file\":\"../../media/filters/decoder_selector.cc\",\"line\":172}],\"status_code\":265,\"status_message\":\"\"}"}[0m
+Aug 18 10:18:46 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[11626:15:0818/101846.889142:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"{\"causes\":[{\"causes\":[],\"data\":{\"codec\":\"h264\"},\"stack\":[{\"file\":\"../../media/filters/dav1d_video_decoder.cc\",\"line\":165}],\"status_code\":260,\"status_message\":\"\"}],\"data\":{\"Decoder name\":\"Dav1dVideoDecoder\"},\"stack\":[{\"file\":\"../../media/filters/decoder_selector.cc\",\"line\":172}],\"status_code\":265,\"status_message\":\"\"}"}[0m
+Aug 18 10:18:47 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101847.426014:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:18:48 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101848.572715:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:18:49 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101849.792371:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:18:50 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101850.813358:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:18:52 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101852.350950:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:18:53 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101853.852582:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:18:55 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101855.033436:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:18:55 chentoz systemd-timesyncd[870]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Aug 18 10:18:56 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101856.334441:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:18:57 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101857.680545:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:18:58 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101858.782153:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:01 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101901.787146:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:02 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101902.829502:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:04 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101904.206023:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:05 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101905.346042:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:06 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101906.904727:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:08 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101908.434770:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:09 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101909.505145:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:11 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101911.405432:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:12 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101912.935548:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:14 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101914.407078:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:15 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101915.934114:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:17 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101917.435508:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:18 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101918.964831:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:20 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101920.356182:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:21 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101921.845650:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:23 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101923.375100:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:24 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101924.964848:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:26 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101926.405576:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:27 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101927.906383:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:29 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101929.404967:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:30 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101930.904689:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:32 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101932.435120:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:33 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101933.964152:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:35 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101935.466038:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:36 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101936.876454:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:38 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101938.377132:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:39 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101939.964513:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:41 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101941.494900:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:43 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101943.054386:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:44 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101944.615558:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:46 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101946.175912:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:47 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101947.795254:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:49 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101949.325716:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:50 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101950.529797:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:52 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101952.235139:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:53 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101953.824894:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:55 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101955.385595:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:56 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101956.974638:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:58 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101958.564740:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:19:59 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/101959.667536:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:00 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102000.855664:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:01 chentoz CRON[11973]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 10:20:01 chentoz CRON[11972]: pam_unix(cron:session): session opened for user chentoz by (uid=0)
+Aug 18 10:20:01 chentoz CRON[11976]: (root) CMD (/usr/local/bin/backup_configs.sh >> /tmp/backup.log 2>&1 &)
+Aug 18 10:20:01 chentoz CRON[11977]: (chentoz) CMD (/usr/local/bin/backup_configs.sh >> /tmp/backup.log 2>&1 &)
+Aug 18 10:20:01 chentoz CRON[11973]: pam_unix(cron:session): session closed for user root
+Aug 18 10:20:01 chentoz CRON[11972]: pam_unix(cron:session): session closed for user chentoz
+Aug 18 10:20:02 chentoz sudo[11984]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=unknown ; PWD=/home/chentoz/Downloads/linux-toolsets ; USER=root ; COMMAND=/usr/bin/dconf dump /[0m
+Aug 18 10:20:02 chentoz sudo[11984]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 18 10:20:02 chentoz sudo[11984]: pam_unix(sudo:session): session closed for user root
+Aug 18 10:20:02 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102002.613974:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:04 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102004.114681:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:05 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102005.403920:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:06 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102006.644501:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:07 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102007.662755:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:09 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102009.303680:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:10 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102010.864605:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:12 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102012.254595:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:13 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102013.984260:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:15 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102015.516054:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:17 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102017.015382:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:18 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102018.544213:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:20 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102020.015904:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:21 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102021.455472:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:22 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102022.864910:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:23 chentoz sudo[12078]: [0;1;39m[0;1;31m[0;1;39m chentoz : TTY=pts/2 ; PWD=/home/chentoz/Downloads/openstreetmap-website ; USER=root ; COMMAND=/usr/bin/vi /etc/postgresql/12/main/postgresql.conf[0m
+Aug 18 10:20:23 chentoz sudo[12078]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 18 10:20:24 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102024.366263:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:25 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102025.954666:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:27 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102027.097563:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:28 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102028.370503:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:29 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102029.479056:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:30 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102030.714662:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:32 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102032.195318:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:33 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102033.695312:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:35 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102035.165472:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:36 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102036.575629:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:38 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102038.165534:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:39 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102039.724139:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:41 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102041.225018:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:42 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102042.754221:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:44 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102044.315286:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:45 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102045.725891:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:47 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102047.254491:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:48 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102048.784968:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:50 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102050.315061:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:51 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102051.575322:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:53 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102053.105754:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:54 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102054.514576:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:56 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102056.077291:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:57 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102057.306056:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:20:58 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102058.349679:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:00 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102100.005926:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:01 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102101.594090:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:02 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102102.784609:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:03 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102103.962631:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:04 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102104.983174:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:06 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102106.131760:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:07 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102107.687060:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:09 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102109.275899:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:10 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102110.864553:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:12 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102112.455316:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:13 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102113.923968:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:15 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102115.175129:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:16 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102116.984785:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:18 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102118.545668:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:20 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102120.045923:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:21 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102121.423894:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:22 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102122.894653:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:24 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102124.484737:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:25 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102125.985303:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:27 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102127.516073:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:29 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102129.074415:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:30 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102130.574358:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:32 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102132.075816:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:33 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102133.604926:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:35 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102135.165239:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:36 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102136.483878:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:37 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102137.985787:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:39 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102139.516421:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:40 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102140.725494:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:41 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102141.968341:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:43 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102143.647885:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:45 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102145.205164:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:45 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102145.472366:ERROR:CONSOLE(1)] "Refused to execute inline event handler because it violates the following Content Security Policy directive: "script-src 'strict-dynamic' 'sha256-1+GSDjMMklBjZY0QiWq+tGupCvajw4Xbn46ect2mZgM=' 'sha256-2mX1M62Fd0u8q0dQY2mRsK5S1NS9jJuQAvyE8tD0dkQ=' 'sha256-EtIKSV82ixJHE3AzqhoiVbUGKG+Kd8XS0fFToow29o0=' 'sha256-QSyFltV9X3gkyBrg+SMfKvZNXmqPQc6K4B6OYhTuXmw=' 'sha256-4M0jdrILwm/h3mCRbjIF07jAlCbI0ZbyLjQL/9HVhwE=' 'sha256-CbH+xPsBKQxVw5d9blISLDeuMSe1M+dJ4xfArFynIfw=' 'sha256-C9ctze2LhHtwL+fcPVPkmVRYjQgXTGs4xfBAzlQwGWk=' 'sha256-zMVvHss5Z7u6w4bd07GlEWKaRwb8wFQKcJYJT/piG7g='". Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution.[0m
+Aug 18 10:21:45 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m", source: chrome-search://local-ntp/local-ntp.html (1)[0m
+Aug 18 10:21:50 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102150.650964:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:55 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102155.459993:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:21:59 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102159.552816:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:22:01 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102201.175894:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:22:02 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102202.736166:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:22:04 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102204.264983:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:22:05 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102205.627638:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:22:21 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102221.460244:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:22:50 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102250.643250:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:22:59 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102259.459073:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:23:09 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39mFontconfig error: Cannot load default config file: No such file: (null)[0m
+Aug 18 10:23:40 chentoz sudo[12078]: pam_unix(sudo:session): session closed for user root
+Aug 18 10:23:47 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102347.460059:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:23:52 chentoz org.gnome.Shell.desktop[2592]: [0;1;39m[0;1;31m[0;1;39m[3178:3178:0818/102352.399949:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint (unset) for first_image_paint 2.611 s[0m
+Aug 18 10:24:08 chentoz sudo[12912]: [0;1;39m[0;1;31m[0;1;39m chentoz : TTY=pts/2 ; PWD=/home/chentoz/Downloads/openstreetmap-website ; USER=root ; COMMAND=/bin/systemctl restart postgresql@12-main.service[0m
+Aug 18 10:24:08 chentoz sudo[12912]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 18 10:24:08 chentoz systemd[1]: Stopping PostgreSQL Cluster 12-main...
+-- Subject: Unit postgresql@12-main.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit postgresql@12-main.service has begun shutting down.
+Aug 18 10:24:08 chentoz systemd[1]: Stopped PostgreSQL Cluster 12-main.
+-- Subject: Unit postgresql@12-main.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit postgresql@12-main.service has finished shutting down.
+Aug 18 10:24:08 chentoz systemd[1]: Starting PostgreSQL Cluster 12-main...
+-- Subject: Unit postgresql@12-main.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit postgresql@12-main.service has begun starting up.
+Aug 18 10:24:08 chentoz postgresql@12-main[12918]: Error: Could not open logfile /var/log/postgresql/postgresql-12-main.log
+Aug 18 10:24:09 chentoz postgresql@12-main[12918]: Error: /usr/lib/postgresql/12/bin/pg_ctl /usr/lib/postgresql/12/bin/pg_ctl start -D /var/lib/postgresql/12/main -l /var/log/postgresql/postgresql-12-main.log -s -o  -c config_file="/etc/postgresql/12/main/postgresql.conf"  exited with status 1:
+Aug 18 10:24:09 chentoz systemd[1]: postgresql@12-main.service: Can't open PID file /run/postgresql/12-main.pid (yet?) after start: No such file or directory
+Aug 18 10:24:09 chentoz systemd[1]: [0;1;39m[0;1;31m[0;1;39mpostgresql@12-main.service: Failed with result 'protocol'.[0m
+Aug 18 10:24:09 chentoz systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PostgreSQL Cluster 12-main.[0m
+-- Subject: Unit postgresql@12-main.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit postgresql@12-main.service has failed.
+-- 
+-- The result is RESULT.
+Aug 18 10:24:09 chentoz sudo[12912]: pam_unix(sudo:session): session closed for user root
