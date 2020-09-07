@@ -2,7 +2,7 @@ L.OSM = {};
 
 L.OSM.TileLayer = L.TileLayer.extend({
   options: {
-    url: 'http://chentoz/{z}/{x}/{y}.png',
+    url: 'http://spim:31303/{z}/{x}/{y}.png',
     attribution: '© <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors'
   },
 
@@ -14,7 +14,7 @@ L.OSM.TileLayer = L.TileLayer.extend({
 
 L.OSM.Mapnik = L.OSM.TileLayer.extend({
   options: {
-    url: 'http://chentoz/{z}/{x}/{y}.png',
+    url: 'http://spim:31303/{z}/{x}/{y}.png',
     maxZoom: 19
   }
 });
