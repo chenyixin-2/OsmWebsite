@@ -1,0 +1,16 @@
+[Unit]
+Description=OsmWebsite
+Requires=network.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/home/osm/src/OsmWebsite
+ExecStart=/usr/bin/bash -lc 'sudo bundle exec puma'
+TimeoutSec=30
+RestartSec=15s
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
