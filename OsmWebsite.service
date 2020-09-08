@@ -4,13 +4,18 @@ Requires=network.target
 
 [Service]
 Type=simple
-User=root
-Group=root
 WorkingDirectory=/home/osm/src/OsmWebsite
 ExecStart=/usr/bin/bash -lc 'sudo bundle exec puma'
 TimeoutSec=30
 RestartSec=15s
 Restart=always
+
+User=root
+Group=root
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=OsmWebsite
+# Environment=NODE_ENV=production PORT=1337
 
 [Install]
 WantedBy=multi-user.target
