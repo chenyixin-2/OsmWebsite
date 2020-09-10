@@ -4,8 +4,8 @@ Requires=network.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/osm/src/OsmWebsite
-ExecStart=/usr/bin/bash -lc 'sudo bundle exec puma'
+WorkingDirectory=/home/spim/src/OsmWebsite
+ExecStart=/bin/bash -lc 'bundle exec puma'
 TimeoutSec=30
 RestartSec=15s
 Restart=always

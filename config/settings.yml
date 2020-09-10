@@ -85,9 +85,9 @@ default_editor: "id"
 # OAuth consumer key for Potlatch 2
 #potlatch2_key: ""
 # OAuth consumer key for the web site
-oauth_key: "2CQES5ZzWNwKfxfzqkFh6wIsYyiX9l4SoB8OIPn5"
+# oauth_key: "2CQES5ZzWNwKfxfzqkFh6wIsYyiX9l4SoB8OIPn5"
 # OAuth consumer key for iD
-id_key: "2CQES5ZzWNwKfxfzqkFh6wIsYyiX9l4SoB8OIPn5"
+# id_key: "2CQES5ZzWNwKfxfzqkFh6wIsYyiX9l4SoB8OIPn5"
 # Imagery to return in capabilities as blacklisted
 imagery_blacklist:
   # Current Google imagery URLs have google or googleapis in the domain
