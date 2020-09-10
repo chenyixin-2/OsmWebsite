@@ -1,9 +1,12 @@
 # Configure ActionMailer SMTP settings
 ActionMailer::Base.smtp_settings = {
-  :address => "localhost",
+  :address => "smtp.exmail.qq.com",
   :port => 25,
-  :domain => "localhost",
-  :enable_starttls_auto => false
+  :domain => "exmail.qq.com",
+  :authentication => :login,
+  :user_name => 'yxchen@spidersens.com',
+  :password => "0107Chentoz*",
+  :enable_starttls_auto => true,
 }
 
 # Set the host and protocol for all ActionMailer URLs
